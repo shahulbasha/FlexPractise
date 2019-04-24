@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-.box {
-  color: white;
-  text-align: center;
-  font-size: 100px;
-  padding: 10px;
-  width: 33.33%;
-  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-
 .box1 {
   background: #333;
 }
@@ -46,8 +37,15 @@
 
 .container {
   display: flex;
-  border: 10px solid gold;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 100vh;
+}
+
+.box {
+  font-size: 100px;
+  color: white;
+  padding: 10px;
+  flex: 1;
+}
+
+.box3 {
+  order: 1;
 }
